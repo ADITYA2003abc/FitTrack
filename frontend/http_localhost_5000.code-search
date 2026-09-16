@@ -1,0 +1,62 @@
+# Query: http://localhost:5000
+# ContextLines: 1
+
+13 results - 6 files
+
+src\components\Analytics.jsx:
+  17                  const workoutResponse = await fetch(
+  18:                     "https://fittrack-0hov.onrender.com/api/workouts",
+  19                      {
+
+  26                  const nutritionResponse = await fetch(
+  27:                     "https://fittrack-0hov.onrender.com/api/nutrition",
+  28                      {
+
+src\components\Auth.jsx:
+  15              const response = await fetch(
+  16:                 "https://fittrack-0hov.onrender.com/api/register",
+  17                  {
+
+  50              const response = await fetch(
+  51:                 "https://fittrack-0hov.onrender.com/api/login",
+  52                  {
+
+src\components\Dashboard.jsx:
+  18                  const workoutResponse = await fetch(
+  19:                     "https://fittrack-0hov.onrender.com/api/workouts",
+  20                      {
+
+  27                  const nutritionResponse = await fetch(
+  28:                     "https://fittrack-0hov.onrender.com/api/nutrition",
+  29                      {
+
+src\components\Navbar.jsx:
+  21                  const response = await fetch(
+  22:                     "https://fittrack-0hov.onrender.com/api/profile",
+  23                      {
+
+src\components\Nutrition.jsx:
+  20              const response = await fetch(
+  21:                 "https://fittrack-0hov.onrender.com/api/nutrition",
+  22                  {
+
+  61              const response = await fetch(
+  62:                 "https://fittrack-0hov.onrender.com/api/nutrition",
+  63                  {
+
+src\components\Workout.jsx:
+   20              const response = await fetch(
+   21:                 "https://fittrack-0hov.onrender.com/api/workouts",
+   22                  {
+
+   54              const response = await fetch(
+   55:                 "https://fittrack-0hov.onrender.com/api/workouts",
+   56                  {
+
+  141          const response = await fetch(
+  142:             "https://fittrack-0hov.onrender.com/api/workouts/" + workout._id,
+  143              {
+
+  187              const response = await fetch(
+  188:                 "https://fittrack-0hov.onrender.com/api/workouts/" + workoutId,
+  189                  {
