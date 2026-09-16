@@ -13,7 +13,7 @@ function Auth() {
 
         try {
             const response = await fetch(
-                "http://localhost:5000/api/register",
+                "https://fittrack-0hov.onrender.com/api/register",
                 {
                     method: "POST",
                     headers: {
@@ -48,7 +48,7 @@ function Auth() {
 
         try {
             const response = await fetch(
-                "http://localhost:5000/api/login",
+                "https://fittrack-0hov.onrender.com/api/login",
                 {
                     method: "POST",
                     headers: {

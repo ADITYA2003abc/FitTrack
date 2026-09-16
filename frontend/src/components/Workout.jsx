@@ -18,7 +18,7 @@ function Workout() {
 
         try {
             const response = await fetch(
-                "http://localhost:5000/api/workouts",
+                "https://fittrack-0hov.onrender.com/api/workouts",
                 {
                     headers: {
                         "Authorization": "Bearer " + token
@@ -52,7 +52,7 @@ function Workout() {
 
         try {
             const response = await fetch(
-                "http://localhost:5000/api/workouts",
+                "https://fittrack-0hov.onrender.com/api/workouts",
                 {
                     method: "POST",
                     headers: {
@@ -139,7 +139,7 @@ function Workout() {
 
     try {
         const response = await fetch(
-            "http://localhost:5000/api/workouts/" + workout._id,
+            "https://fittrack-0hov.onrender.com/api/workouts/" + workout._id,
             {
                 method: "PUT",
                 headers: {
@@ -185,7 +185,7 @@ function Workout() {
 
         try {
             const response = await fetch(
-                "http://localhost:5000/api/workouts/" + workoutId,
+                "https://fittrack-0hov.onrender.com/api/workouts/" + workoutId,
                 {
                     method: "DELETE",
                     headers: {

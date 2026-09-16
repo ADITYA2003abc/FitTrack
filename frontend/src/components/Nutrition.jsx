@@ -18,7 +18,7 @@ function Nutrition() {
 
         try {
             const response = await fetch(
-                "http://localhost:5000/api/nutrition",
+                "https://fittrack-0hov.onrender.com/api/nutrition",
                 {
                     headers: {
                         "Authorization": "Bearer " + token
@@ -59,7 +59,7 @@ function Nutrition() {
 
         try {
             const response = await fetch(
-                "http://localhost:5000/api/nutrition",
+                "https://fittrack-0hov.onrender.com/api/nutrition",
                 {
                     method: "POST",
                     headers: {

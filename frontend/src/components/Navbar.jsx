@@ -19,7 +19,7 @@ function Navbar() {
 
             try {
                 const response = await fetch(
-                    "http://localhost:5000/api/profile",
+                    "https://fittrack-0hov.onrender.com/api/profile",
                     {
                         headers: {
                             "Authorization": "Bearer " + token

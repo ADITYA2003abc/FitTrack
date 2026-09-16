@@ -15,7 +15,7 @@ function Analytics() {
         async function loadAnalyticsData() {
             try {
                 const workoutResponse = await fetch(
-                    "http://localhost:5000/api/workouts",
+                    "https://fittrack-0hov.onrender.com/api/workouts",
                     {
                         headers: {
                             "Authorization": "Bearer " + token
@@ -24,7 +24,7 @@ function Analytics() {
                 );
 
                 const nutritionResponse = await fetch(
-                    "http://localhost:5000/api/nutrition",
+                    "https://fittrack-0hov.onrender.com/api/nutrition",
                     {
                         headers: {
                             "Authorization": "Bearer " + token
