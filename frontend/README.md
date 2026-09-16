@@ -1,16 +1,75 @@
-# React + Vite
+# FitTrack — Full-Stack Fitness Tracker
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+FitTrack is a full-stack fitness tracking web application designed to help users manage their workouts, nutrition, BMI, and fitness analytics in one place.
 
-Currently, two official plugins are available:
+## 🚀 Live Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+https://fittrack-frontend-et79.onrender.com
 
-## React Compiler
+## 📌 Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- 🔐 User Registration & Login
+- 🔑 JWT-based Authentication
+- 🏋️ Workout Tracking
+  - Add workouts
+  - Edit workouts
+  - Delete workouts
+- 🍎 Nutrition Tracking
+- ⚖️ BMI Calculator
+- 📊 Dynamic Dashboard & Statistics
+- 🔥 Workout Streak Tracking
+- 📈 Workout & Nutrition Analytics
+- 👤 User-specific data
+- 📱 Responsive User Interface
 
-## Expanding the Oxlint configuration
+## 🛠️ Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+### Frontend
+- React.js
+- Vite
+- JavaScript
+- HTML5
+- CSS3
+- Chart.js
+
+### Backend
+- Node.js
+- Express.js
+- JWT
+- bcrypt
+- CORS
+- dotenv
+
+### Database
+- MongoDB
+- MongoDB Atlas
+
+### Deployment
+- GitHub
+- Render
+
+## 🏗️ Project Structure
+
+```text
+FitTrack/
+│
+├── backend/
+│   ├── index.js
+│   ├── package.json
+│   └── package-lock.json
+│
+├── frontend/
+│   ├── public/
+│   ├── src/
+│   │   ├── components/
+│   │   ├── App.jsx
+│   │   ├── App.css
+│   │   ├── index.css
+│   │   └── main.jsx
+│   ├── package.json
+│   └── package-lock.json
+│
+├── index.html
+├── script.js
+├── style.css
+└── .gitignore
